@@ -33,6 +33,6 @@ df = pd.DataFrame(
 )
 
 df.to_csv('full_anime_list.csv', encoding='utf-8', index=False)
-df = pd.read_csv('full_anime_list.csv')
-print(all_genres)
-print(df.head())
+#df = pd.read_csv('full_anime_list.csv')
+#print(all_genres)
+#print(df.head())
